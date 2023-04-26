@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_navbar_links",
+  "info": {
+    "displayName": "Link"
+  },
+  "options": {},
+  "attributes": {
+    "Name": {
+      "type": "string",
+      "required": true
+    },
+    "slug": {
+      "type": "string",
+      "required": true
+    },
+    "Extern": {
+      "type": "boolean",
+      "required": true
+    }
+  }
+}

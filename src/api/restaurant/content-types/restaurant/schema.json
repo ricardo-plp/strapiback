@@ -1,0 +1,50 @@
+{
+  "kind": "collectionType",
+  "collectionName": "restaurants",
+  "info": {
+    "singularName": "restaurant",
+    "pluralName": "restaurants",
+    "displayName": "Restaurant",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nom_du_restaurant": {
+      "type": "text",
+      "required": true
+    },
+    "image_restaurant": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "ouverture": {
+      "type": "time"
+    },
+    "fermeture": {
+      "type": "time"
+    },
+    "adresse": {
+      "type": "text"
+    },
+    "villes": {
+      "type": "enumeration",
+      "enum": [
+        "Paris",
+        "Nantes",
+        "Lyon",
+        "Marseille",
+        "Lille",
+        "Grenoble",
+        "Strasbourg",
+        "Bordeaux"
+      ]
+    }
+  }
+}
